@@ -1,6 +1,6 @@
 # Swagger Aggregator
 
-  A simple, Spring BOOT applicaiton which aggregates/consolidates all the swagger definition.
+  A simple, Spring BOOT applicaiton which aggregates/consolidates all the swagger definitions.
   This app if added to Spring BOOT based Netflix Zuul (API Gateway) will provide complete API gateway features like 
   paid product [Swagger Hub](https://swaggerhub.com)
   
