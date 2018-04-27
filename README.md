@@ -11,25 +11,25 @@
   2. Currently Swagger Aggregator consolidates all swagger definition defined in application.yml as shown below:
   
      ``` yaml
-documentation:
-  swagger:
-    services:
-      -
-        name: My Pet Service
-        url: http://petstore.swagger.io/v2/swagger.json
-        version: 2.0
-      -
-        name: Pet Professional SERVICES
-        url: http://petstore.swagger.io/v2/swagger.json
-        version: 2.0
-      -
-        name: Hobby Pet Service
-        url: http://petstore.swagger.io/v2/swagger.json
-        version: 2.0
-      -
-        name: Pet Food Service
-        url: http://petstore.swagger.io/v2/swagger.json
-        version: 2.0
+        documentation:
+          swagger:
+            services:
+              -
+                name: My Pet Service
+                url: http://petstore.swagger.io/v2/swagger.json
+                version: 2.0
+              -
+                name: Pet Professional SERVICES
+                url: http://petstore.swagger.io/v2/swagger.json
+                version: 2.0
+              -
+                name: Hobby Pet Service
+                url: http://petstore.swagger.io/v2/swagger.json
+                version: 2.0
+              -
+                name: Pet Food Service
+                url: http://petstore.swagger.io/v2/swagger.json
+                version: 2.0
      ```
   3. Swagger Aggregator application.yml is defined out side the application in the config folder. This provides ease in 
      changing the application properties without building application again
