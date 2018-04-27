@@ -23,6 +23,30 @@
    
    http://localhost:8000/swagger-ui.html
    
+   NOTE: On top right corner in combo box, all the swagger defintion specified in applicaiton.yml will be visible
+    
+   ``` yaml
+       documentation:
+         swagger:
+           services:
+             -
+               name: Pet Service
+               url: http://petstore.swagger.io/v2/swagger.json
+               version: 2.0
+             -
+               name: Human Service
+               url: http://petstore.swagger.io/v2/swagger.json
+               version: 2.0
+             -
+               name: Zoo Service
+               url: http://petstore.swagger.io/v2/swagger.json
+               version: 2.0
+             -
+               name: Food Service
+               url: http://petstore.swagger.io/v2/swagger.json
+               version: 2.0
+     ```
+   
    ![alt text](swagger-ui.png)
        
    
