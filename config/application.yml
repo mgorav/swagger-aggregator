@@ -22,20 +22,20 @@ management:
     git:
       enabled: true
 
-# pointing at Swagger's petstore docs so the example has some content
+# example swagger definitions
 documentation:
   swagger:
     services:
       -
-        name: Pet Service
+        name: My Pet Service
         url: http://petstore.swagger.io/v2/swagger.json
         version: 2.0
       -
-        name: Human Service
+        name: Pet Professional SERVICES
         url: http://petstore.swagger.io/v2/swagger.json
         version: 2.0
       -
-        name: Zoo Service
+        name: Hobby Pet Service
         url: http://petstore.swagger.io/v2/swagger.json
         version: 2.0
       -
