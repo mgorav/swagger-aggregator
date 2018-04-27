@@ -23,7 +23,7 @@
    
    http://localhost:8000/swagger-ui.html
    
-   ![alt text](./images/swagger-ui.png)
+   ![alt text](swagger-ui.png)
        
    
     
