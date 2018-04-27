@@ -43,7 +43,8 @@
    
    Hit following URL to see aggregator UI:
    
-   http://localhost:8000/swagger-ui.html
+   http://localhost:8000/swagger-ui.html or
+   http://localhost:8000/swagger
    
    NOTE: On top right corner in combo box, all the swagger defintion specified in applicaiton.yml will be visible
     
