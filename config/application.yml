@@ -10,9 +10,6 @@ info:
 
 server:
   port: 8000
-  error:
-    whitelabel:
-      enabled: false
 management:
   endpoints:
       web:
