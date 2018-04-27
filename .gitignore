@@ -41,3 +41,5 @@ target/
 .idea/vcs.xml
 .idea/workspace.xml
 swagger-aggregator.iml
+/.idea/
+src/main/resources/
