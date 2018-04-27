@@ -1,7 +1,3 @@
-#project:
-#  name: Swagger Aggregator
-#  version: 1.0
-#  description: Swagger Aggregator
 info:
   build:
     name: Swagger Aggregator
