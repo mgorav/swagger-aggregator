@@ -39,7 +39,7 @@ documentation:
         url: http://petstore.swagger.io/v2/swagger.json
         version: 2.0
       -
-        name: Food Service
+        name: Pet Food Service
         url: http://petstore.swagger.io/v2/swagger.json
         version: 2.0
 
