@@ -1,0 +1,59 @@
+#project:
+#  name: Swagger Aggregator
+#  version: 1.0
+#  description: Swagger Aggregator
+info:
+  build:
+    name: Swagger Aggregator
+    description: Swagger Aggregator
+    version: 1.0
+
+server:
+  port: 8000
+  error:
+    whitelabel:
+      enabled: false
+management:
+  endpoints:
+      web:
+        exposure:
+          include: '*'
+        base-path: /
+  server:
+    port: 8001
+  info:
+    build:
+      enabled: true
+    defaults:
+      enabled: true
+    git:
+      enabled: true
+
+# pointing at Swagger's petstore docs so the example has some content
+documentation:
+  swagger:
+    services:
+      -
+        name: Pet Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      -
+        name: Human Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      -
+        name: Zoo Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+      -
+        name: Food Service
+        url: http://petstore.swagger.io/v2/swagger.json
+        version: 2.0
+
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+       path: /v2/swagger.json
+
