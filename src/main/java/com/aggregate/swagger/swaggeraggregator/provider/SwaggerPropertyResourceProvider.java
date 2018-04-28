@@ -10,6 +10,7 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 import java.util.Collections;
 import java.util.List;
 
+import static java.util.Collections.EMPTY_LIST;
 import static java.util.stream.Collectors.toList;
 
 @Controller
@@ -26,7 +27,7 @@ public class SwaggerPropertyResourceProvider implements SwaggerResourcesProvider
             swaggerResource.setLocation(svc.getUrl());
             swaggerResource.setSwaggerVersion(svc.getVersion());
             return swaggerResource;
-        }).collect(toList()) : Collections.EMPTY_LIST;
+        }).collect(toList()) : EMPTY_LIST;
 
     }
 }
