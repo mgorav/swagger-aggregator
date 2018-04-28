@@ -14,7 +14,7 @@ import static java.util.stream.Collectors.toList;
 
 @Controller
 @Primary
-public class PropertyResourceProvider implements SwaggerResourcesProvider {
+public class SwaggerPropertyResourceProvider implements SwaggerResourcesProvider {
     @Autowired
     private SwaggerServicesConfig config;
 
